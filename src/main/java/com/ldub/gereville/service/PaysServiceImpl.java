@@ -45,5 +45,10 @@ public class PaysServiceImpl implements PaysService{
     public void delete(Pays pays) {
         paysDao.delete(pays);
     }
+
+    @Override
+    public Pays findById(int id) {
+        return paysDao.findById(id);
+    }
     
 }

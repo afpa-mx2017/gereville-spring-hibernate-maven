@@ -31,4 +31,6 @@ public class AppConfig {
       transactionManager.setEntityManagerFactory(geEntityManagerFactoryBean().getObject());
       return transactionManager;
    }
+   
+
 }

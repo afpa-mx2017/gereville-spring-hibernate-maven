@@ -18,4 +18,5 @@ public interface PaysService {
     void delete(Pays pays);
     void save(Pays p);
     List<Pays> findAll();
+    Pays findById(int id);
 }

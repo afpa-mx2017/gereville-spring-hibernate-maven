@@ -18,4 +18,5 @@ public interface PaysDao {
     void delete(Pays pays);
     void save(Pays pays);
     List<Pays> findAll();
+    Pays findById(int id);
 }
